@@ -17,3 +17,5 @@ _SpecRunner.html
 /curl_components
 .tmp
 /app
+/build
+*.swp

@@ -1,0 +1,18 @@
+<html ng-app="demo.markers">
+<head>
+    <script type="text/javascript" src="../bower_components/lodash/dist/lodash.js"></script>
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="../bower_components/stacktrace-js/dist/stacktrace.js"></script>
+    <script type="text/javascript" src="../build/angular-google-maps.js"></script>
+    <script type="text/javascript" src="markers.js"></script>
+</head>
+<body ng-controller="markersCtrl">
+    <div style="width: 600px; height: 400px" ui-gmap-map ui-gmap="options">
+        <div ui-gmap-markers="options.markers">
+            <div>
+                Hello World!
+            </div>
+        </div>
+    </div>
+</body>
+</html>
